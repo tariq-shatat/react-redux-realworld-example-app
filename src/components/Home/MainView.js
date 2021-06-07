@@ -16,7 +16,7 @@ const YourFeedTab = React.memo(props => {
         <button type='button'
           className={props.tab === 'feed' ? 'nav-link active' : 'nav-link'}
           onClick={clickHandler}>
-          Your Feed
+          Your Feed Changed
         </button>
       </li>
     )
