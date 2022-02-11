@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = process.env.REACT_APP_BACKEND_URL || 'http://127.0.0.1:8700/api';//'https://api.realworld.io/api';
+const API_ROOT = process.env.REACT_APP_BACKEND_URL || 'https://api.realworld.io/api';
 
 console.log(API_ROOT);
 console.log(process.env.REACT_APP_BACKEND_URL);
