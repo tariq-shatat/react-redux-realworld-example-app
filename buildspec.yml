@@ -12,4 +12,4 @@ phases:
         - aws eks --region us-east-1 update-kubeconfig --name production-eks-cluster
         - aws sts get-caller-identity
         - kubectl version
-        - kubectl -n conduit set image deploy/conduit-frontend conduit-backend=conduit-backend:${CODEBUILD_BUILD_NUMBER}
+        - kubectl -n conduit set image deploy/conduit-frontend conduit-frontend=conduit-frontend:${CODEBUILD_BUILD_NUMBER}
